@@ -1,1 +1,10 @@
+** customized packages for python 
+   ----folderA
+     |       |-- module.py
+     |-folderB
+             |-- trial.py
+             
+In 'trial.py', how to import sth from module.py ? Suppose that both folders are in '/home/x991/works/'.
 
+create a '.pth' file in 'home/anaconda3/lib/python3.5/site-packages/', add: /home/x991/works/
+     
